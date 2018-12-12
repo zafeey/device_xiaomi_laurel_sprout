@@ -7,10 +7,6 @@
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# AAPT
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
-
 # A/B
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \

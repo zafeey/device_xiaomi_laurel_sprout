@@ -18,6 +18,7 @@ AB_OTA_PARTITIONS += \
     dtbo \
     product \
     system \
+    system_ext \
     vbmeta \
     vendor
 
@@ -118,17 +119,20 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 
 BOARD_USES_METADATA_PARTITION := true
 
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
+TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
 BOARD_SUPER_PARTITION_GROUPS := xiaomi_dynamic_partitions
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
     vendor \
-    product
+    product \
+    system_ext
 
 # Retrofit dynamic partitions for Xiaomi Mi A3.
 BOARD_SUPER_PARTITION_SIZE := 4563402752

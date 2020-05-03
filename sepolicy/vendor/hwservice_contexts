@@ -5,3 +5,6 @@ vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint                 
 
 # RIL
 vendor.qti.hardware.radio.qcriNvOpt::IqcriNvOpt					u:object_r:hal_rilnv_hwservice:s0
+
+# Misys
+vendor.xiaomi.hardware.misys::IMiSys          u:object_r:hal_misys_hwservice:s0

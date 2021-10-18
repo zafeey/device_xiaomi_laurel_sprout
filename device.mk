@@ -198,6 +198,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
+PRODUCT_PACKAGES += \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor \
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \

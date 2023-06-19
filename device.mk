@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Include GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
-
 # A/B
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \

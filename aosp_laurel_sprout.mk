@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+PRODUCT_NO_CAMERA := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Bootanimation

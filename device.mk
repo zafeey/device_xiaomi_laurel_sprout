@@ -95,7 +95,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
-    libgui_vendor
+    libgui_vendor \
+    libstdc++.vendor \
+    vendor.qti.hardware.camera.device@1.0.vendor
 
 PRODUCT_PACKAGES += \
     libwatermark_shim

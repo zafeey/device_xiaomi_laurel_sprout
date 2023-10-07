@@ -106,6 +106,7 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/4804000.ufshc
 BOARD_KERNEL_CMDLINE += androidboot.super_partition=system
 
+TARGET_KERNEL_CLANG_VERSION := r498229b
 TARGET_KERNEL_CONFIG := vendor/laurel_sprout-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/laurel_sprout
 TARGET_KERNEL_ADDITIONAL_FLAGS := \

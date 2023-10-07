@@ -200,7 +200,11 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.xiaomi
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service
+
+PRODUCT_PACKAGES += \
+    lights.trinket
 
 # Media
 PRODUCT_PACKAGES += \

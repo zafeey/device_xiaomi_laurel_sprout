@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_laurel_sprout.mk
+    $(LOCAL_DIR)/awaken_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_laurel_sprout-user \
-    aosp_laurel_sprout-userdebug \
-    aosp_laurel_sprout-eng
+    awaken_laurel_sprout-user \
+    awaken_laurel_sprout-userdebug \
+    awaken_laurel_sprout-eng
